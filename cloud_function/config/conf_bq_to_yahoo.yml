@@ -1,0 +1,12 @@
+bq:
+  project_id: all-project-264506
+  datase_id: mk_demo_project
+  query: |
+    SELECT
+    segmentid,
+    clientid,
+    idfa,
+    aaid
+    FROM
+    `all-project-264506.mk_demo_project.yahoo_demo`
+    ;
